@@ -1,13 +1,143 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background: #1c1c1c;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #23252c;
+    width: 550px;
+    height: 868px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 10px 10px 0px 0px;
+    width: 317px;
+    height: 317px;
+    background-image: url("./images/zach.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details {
+    text-align: center;
+    background: #1a1b21;
+    width: 317px;
+    height: 399px;
+}
+
+.details h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
+
+.details h4 {
+    font-size: 12.8px;
+    font-weight: 400;
+    color: #f3bf99;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.details p {
+    margin: 5px 0 0 0;
+}
+
+.details p a {
+    font-size: 10.24px;
+    font-weight: 400;
+    color: #f5f5f5;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.details p a:hover {
+    text-decoration:underline;
+}
+
+.contact-btns {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.contact-btns a {
+    text-decoration: none;
+}
+
+.contact-btns button {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 4px;
+}
+
+.contact-btns button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0 0);
+}
+
+.contact-btns button img {
+    width: 16px;
+    height: 16px;
+}
+
+.email {
+    color: #374151;
+}
+
+.linkedin {
+    background-color: #5093E2;
+    color: #fff;
+}
+
+.details-blurbs {
+    text-align: left;
+    color: #fff;
+    margin: 24px auto;
+    width: 247px;
+}
+
+.details-blurbs h3 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.details-blurbs p {
+    font-size: 10.24px;
+    font-weight: 400;
+}
+
+.footer {
+    background:#161619;
+    height: 64px;
+    width: 317px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    height: 25px;
+    margin: 0px 12px;
 }
