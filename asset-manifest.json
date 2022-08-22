@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.258135e5.css",
+    "main.js": "/react/static/js/main.fd9c0ad3.js",
+    "static/media/zach.jpeg": "/react/static/media/zach.ffb4eac9e751767dd01f.jpeg",
+    "index.html": "/react/index.html",
+    "main.258135e5.css.map": "/react/static/css/main.258135e5.css.map",
+    "main.fd9c0ad3.js.map": "/react/static/js/main.fd9c0ad3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.258135e5.css",
+    "static/js/main.fd9c0ad3.js"
+  ]
+}
