@@ -32,7 +32,6 @@ body {
     text-align: center;
     background: #1a1b21;
     width: 317px;
-    height: 399px;
 }
 
 .details h2 {
@@ -125,6 +124,10 @@ body {
 .details-blurbs p {
     font-size: 10.24px;
     font-weight: 400;
+}
+
+.details-blurbs p a {
+    text-decoration: underline;
 }
 
 .footer {
