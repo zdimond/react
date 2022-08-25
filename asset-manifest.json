@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-digital-business-card/static/css/main.11065cba.css",
-    "main.js": "/react-digital-business-card/static/js/main.f47bf655.js",
+    "main.css": "/react-digital-business-card/static/css/main.2bb242ae.css",
+    "main.js": "/react-digital-business-card/static/js/main.14a7a7d4.js",
     "static/media/zach.jpeg": "/react-digital-business-card/static/media/zach.ffb4eac9e751767dd01f.jpeg",
     "static/media/sun.png": "/react-digital-business-card/static/media/sun.2da28971c62b8b922e27.png",
     "static/media/moon.png": "/react-digital-business-card/static/media/moon.05652f4a02c0318d58cb.png",
     "index.html": "/react-digital-business-card/index.html",
-    "main.11065cba.css.map": "/react-digital-business-card/static/css/main.11065cba.css.map",
-    "main.f47bf655.js.map": "/react-digital-business-card/static/js/main.f47bf655.js.map"
+    "main.2bb242ae.css.map": "/react-digital-business-card/static/css/main.2bb242ae.css.map",
+    "main.14a7a7d4.js.map": "/react-digital-business-card/static/js/main.14a7a7d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.11065cba.css",
-    "static/js/main.f47bf655.js"
+    "static/css/main.2bb242ae.css",
+    "static/js/main.14a7a7d4.js"
   ]
 }
