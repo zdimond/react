@@ -11,12 +11,12 @@ export default function Details() {
       <div className="contact-btns">
         <a href="mailto:zedimond@gmail.com" target="blank">
           <button className="email">
-            <img src={emailicon}></img>Email
+            <img src={emailicon}></img><span>Email</span>
           </button>
         </a>
         <a href="https://www.linkedin.com/in/zachdimond/" target="blank">
           <button className="linkedin">
-            <img src={linkedinicon}></img>LinkedIn
+            <img src={linkedinicon}></img><span>LinkedIn</span>
           </button>
         </a>
       </div>

@@ -38,7 +38,7 @@ main {
     background: var(--card-bg-color);
     width: 550px;
     height: 868px;
-    margin-top: 40px;
+    margin: 40px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,4 +176,104 @@ main {
 .footer img {
     height: 25px;
     margin: 0px 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        padding: 6vh 0px;
+        margin:0;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .sun-moon {
+        width: 10vh;
+        position: fixed;
+        bottom: 8px;
+        right: 8px;
+    }
+    
+    .profile-pic {
+        width: 80vw;
+        height: 80vw;
+    }
+    
+    .details {
+        width: 80vw;
+    }
+    
+    .details h2 {
+        font-size: 2.4em;
+        margin-top: 1.2em;
+        margin-bottom: .25em;
+    }
+    
+    .details h4 {
+        font-size: 1.4em;
+        margin-top: .25em;
+        margin-bottom: 0px;
+    }
+    
+    .details p {
+        margin: .5em 0 2em 0;
+    }
+    
+    .details p a {
+        font-size: 1.2em;
+    }
+    
+    .contact-btns {
+        gap: 8vw;
+        margin-bottom: 2em
+    }
+    
+    .contact-btns button {
+        width: 14vw;
+        height: 14vw;
+        border-radius: 8px;
+        padding: unset;
+    }
+    
+    .contact-btns button img {
+        height: 6.5vw;
+        width: unset;
+    }
+
+    .contact-btns button span {
+        display: none;
+    }
+    
+    .details-blurbs {
+        text-align: left;
+        margin: 5vh auto;
+        width: 60vw;
+    }
+    
+    .details-blurbs h3 {
+        color: var(--heading-color);
+        font-size: 1.8em;
+        margin: 0 0 .5em 0;
+    }
+    
+    .details-blurbs p {
+        font-size: 1.2em;
+        margin: 0 0 1.8em 0;
+    }
+    
+    .details-blurbs p a {
+        font-size: 1em;
+    }
+    
+    .footer {
+        height: 10vh;
+        width: 80vw;
+    }
+    
+    .footer img {
+        height: 5vh;
+    }
 }
