@@ -7,10 +7,7 @@ import tw from "../images/twitter.png"
 export default function SocialsFooter() {
   return (
     <div className="footer">
-      <img src={tw}></img>
-      <img src={fb}></img>
-      <img src={ig}></img>
-      <img src={gh}></img>
+      <a href="https://github.com/zdimond" target="__blank"><img src={gh} /></a>
     </div>
   )
 }

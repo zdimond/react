@@ -2,7 +2,7 @@
   "name": "digital-business-card",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zdimond.github.io/react",
+  "homepage": "https://zdimond.github.io/react-digital-business-card",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",

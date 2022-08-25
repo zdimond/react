@@ -22,7 +22,7 @@ export default function Details() {
       </div>
       <div className="details-blurbs">
         <h3>About</h3>
-        <p>I am new frontend developer, and I'm working hard to master the basics of HTML, CSS, and React.</p>
+        <p>I am a new frontend developer, and I'm working hard to master the basics of HTML, CSS, and React.</p>
         <h3>Interests</h3>
         <p>I'm a singer and I play a few instruments. I also like to take pictures, which you can see on my <a href="https://zachdimond.com/photo/">photo minisite</a>. You may notice there, too, that I'm a big fan of birds!</p>
       </div>

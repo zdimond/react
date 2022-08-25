@@ -3,13 +3,39 @@
 }
 
 body {
-    background: #1c1c1c;
+    margin: 0;
+}
+
+.dark {
+    --main-bg-color: #1c1c1c;
+    --card-bg-color: #23252c;
+    --details-bg-color: #1a1b21;
+    --button-border: none;
+    --heading-color: #fff;
+    --accent-color: #f3bf99;
+    --text-color: #f5f5f5;
+    --footer-color: #161619;
+}
+
+.light {
+    --main-bg-color: white;
+    --card-bg-color: #84ACCE;
+    --details-bg-color: #f5f5f5;
+    --button-border: 1px solid #D1D5DB;
+    --heading-color: #2b283a;
+    --accent-color: #f47d27;
+    --text-color: #4A4E74;
+    --footer-color: #d5d4d8;
+}
+
+main {
+    background-color: var(--main-bg-color);
     display: flex;
     justify-content: center;
 }
 
 .container {
-    background: #23252c;
+    background: var(--card-bg-color);
     width: 550px;
     height: 868px;
     margin-top: 40px;
@@ -17,6 +43,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.sun-moon {
+    width: 50px;
 }
 
 .profile-pic {
@@ -30,14 +60,14 @@ body {
 
 .details {
     text-align: center;
-    background: #1a1b21;
+    background: var(--details-bg-color);
     width: 317px;
 }
 
 .details h2 {
     font-size: 25px;
     font-weight: 700;
-    color: #fff;
+    color: var(--heading-color);
     margin-top: 21px;
     margin-bottom: 0px;
 }
@@ -45,7 +75,7 @@ body {
 .details h4 {
     font-size: 12.8px;
     font-weight: 400;
-    color: #f3bf99;
+    color: var(--accent-color);
     margin-top: 6px;
     margin-bottom: 0px;
 }
@@ -57,13 +87,13 @@ body {
 .details p a {
     font-size: 10.24px;
     font-weight: 400;
-    color: #f5f5f5;
+    color: var(--text-color);
     margin: 0px;
     text-decoration: none;
 }
 
 .details p a:hover {
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 .contact-btns {
@@ -81,7 +111,6 @@ body {
     width: 115px;
     height: 34px;
     border-radius: 6px;
-    border: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -102,26 +131,30 @@ body {
 
 .email {
     color: #374151;
+    background: #fff;
+    border: var(--button-border);
 }
 
 .linkedin {
     background-color: #5093E2;
+    border: none;
     color: #fff;
 }
 
 .details-blurbs {
     text-align: left;
-    color: #fff;
     margin: 24px auto;
     width: 247px;
 }
 
 .details-blurbs h3 {
+    color: var(--heading-color);
     font-weight: 700;
     font-size: 16px;
 }
 
 .details-blurbs p {
+    color: var(--text-color);
     font-size: 10.24px;
     font-weight: 400;
 }
@@ -131,7 +164,7 @@ body {
 }
 
 .footer {
-    background:#161619;
+    background: var(--footer-color);
     height: 64px;
     width: 317px;
     border-radius: 0px 0px 10px 10px;
